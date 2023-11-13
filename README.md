@@ -47,23 +47,23 @@ pip dataset/real275_data_preprocess.py
 
 # Evaluation
 
-Then, you can make an evaluation for REAL275 using following command.
+Then, you can make an evaluation for NOCS-REAL275 using following command.
 ~~~
-python tools/valid.py --cfg config/run_eval_real.py --gpus 0
+python evaluate_pose_nocs.py
 ~~~
-Then, you can make an evaluation for CAMERA25 using following command.
+Then, you can make an evaluation for YCB-Video using following command.
 ~~~
-python tools/valid.py --cfg config/run_eval_camera.py --gpus 0
+python evaluate_pose_ycbvideo.py
 ~~~
 
 You can get running speed at the same time.
 
 # Train
-'tools/train.py' is the main file for training. You can train using the following command.
+You can train using the following command.
 ~~~
-python tools/train.py --cfg config/run.py --gpus 0,1,2,3
+python train_model.py --gpu 0,1,2,3
 ~~~
-You can modity the training config.
+You can modity the training config in the demo.
 
 # Ackownledgment
 (1) The dataset is provided by [NOCS](https://github.com/hughw19/NOCS_CVPR2019). 
