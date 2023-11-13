@@ -46,7 +46,7 @@ The dataset is organized as follows:
 
 ## YCB-Video Dataset
 
-# Dataset processing
+## Dataset processing
 ~~~
 pip dataset/real275_data_preprocess.py
 ~~~
