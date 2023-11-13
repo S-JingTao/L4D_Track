@@ -40,6 +40,10 @@ The dataset is organized as follows:
 ── results
       └── nocs_results
 ~~~
+# Dataset processing
+~~~
+pip dataset/real275_data_preprocess.py
+~~~
 
 # Evaluation
 
