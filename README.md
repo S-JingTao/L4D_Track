@@ -1,5 +1,5 @@
 # L4D-Track: Language-to-4D Modeling Towards 6-DoF Tracking and Shape Reconstruction in 3D Point Cloud Stream
-This is the official implementation of our paper L4D-Track: Language-to-4D Modeling Towards 6-DoF Tracking and Shape Reconstruction in 3D Point Cloud Stream [[Project Page](https://s-jingtao.github.io/L4D-Track/)]
+This is the official implementation of our paper L4D-Track: Language-to-4D Modeling Towards 6-DoF Tracking and Shape Reconstruction in 3D Point Cloud Stream [[Project Page](https://anonymous.4open.science/r/L4D_Track-code-6648/)]
 
 # Abstract
 > 3D visual language multi-modal modeling plays an important role in actual human-computer interaction. However, the inaccessibility of large-scale 3D-language pairs restricts their applicability in real-world scenarios. 
