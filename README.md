@@ -7,9 +7,9 @@ In this paper, we aim to handle a real-time multi-task for 6-DoF pose tracking o
 
 # Requirements
 - Linux (tested on Ubuntu 20.04)
-- Python 3.6
+- Python 3.6.13
 - CUDA 11.3
-- PyTorch 1.10.2
+- PyTorch 1.7.1
   
 # Installation
 ~~~
@@ -17,9 +17,7 @@ conda create -n l4dtrack python=3.6
 
 conda activate l4dtrack
 
-conda install pytorch==1.10.1 torchvision==0.11.2 torchaudio==0.10.1 cudatoolkit=11.3 -c pytorch -c conda-forge
-
-pip install opencv-python mmengine numpy tqdm
+conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=11.0 -c pytorch
 
 pip install -r requirements.txt
 ~~~
@@ -33,18 +31,29 @@ Then process these files following [SPD](https://github.com/mentian/object-defor
 The dataset is organized as follows:
 ~~~
 
-── data
-    ├── CAMERA
-    ├── gts
-    ├── obj_models
+── NOCS275
     ├── Real
-    └── results
-            └── mrcnn_results   
-── results
-      └── nocs_results
+    ├── gts
+          └── mrcnn_results
+          └── nocs_results
+          └── SGPA_results
+          └── 6D-ViT_results
+    ├── obj_models
+
 ~~~
 
 ## YCB-Video Dataset
+~~~
+
+── YCB-Video
+    ├── data
+    ├── models
+    ├── classes.txt
+    ├── keyframe.txt
+    ├── train_data_list.txt
+    ├── test_data_list.txt
+
+~~~
 
 ## Dataset processing
 ~~~
