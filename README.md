@@ -81,7 +81,7 @@ python train_model.py --gpu 0,1,2,3
 You can modity the training config in the demo.
 
 # Ackownledgment
-(1) The dataset is provided by [NOCS](https://github.com/hughw19/NOCS_CVPR2019). 
+(1) The training dataset is provided by [NOCS](https://github.com/hughw19/NOCS_CVPR2019). 
 
 (2) Our code is developed based on [Pointnet2.PyTorch](https://github.com/sshaoshuai/Pointnet2.PyTorch), [SPD](https://github.com/mentian/object-deformnet)， [CLIP](https://github.com/openai/CLIP) and [SGPA](https://github.com/ck-kai/SGPA).
 
