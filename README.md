@@ -43,7 +43,7 @@ The dataset is organized as follows:
 ~~~
 
 ## YCB-Video Dataset
-Training and Testing sets follow [PoseCNN](https://github.com/yuxng/PoseCNN). The training set includes 80 training videos 0000-0047 & 0060-0091 and synthetic data 000000-079999. The testing set includes 2949 keyframes from 10 testing videos 0048-0059.
+Training and Testing sets follow [PoseCNN](https://github.com/yuxng/PoseCNN). The training set includes 80 training videos 0000-0047 & 0060-0091 and synthetic data 000000-079999. The testing set includes 2949 keyframes from 10 testing videos 0048-0059. The corresponding file organization as follows:
 ~~~
 
 ── YCB-Video
