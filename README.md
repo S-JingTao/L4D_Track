@@ -57,8 +57,9 @@ Training and Testing sets follow [PoseCNN](https://github.com/yuxng/PoseCNN). Th
 ~~~
 
 ## Dataset processing
+We need to execute the following script to generate the train and test data list and their label.pkl.
 ~~~
-pip dataset/real275_data_preprocess.py
+python dataset/real275_data_preprocess.py
 ~~~
 
 # Evaluation
