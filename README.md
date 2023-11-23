@@ -91,6 +91,10 @@ We need to execute the following script to generate the train and test data list
 ~~~
 python dataset/real275_data_preprocess.py
 ~~~
+We also need to execute the following script to generate the corresponding caption embeedings as JSON format.
+~~~
+python models\video_language_model\save_capthon_embeddings.py
+~~~
 
 # Evaluation
 
