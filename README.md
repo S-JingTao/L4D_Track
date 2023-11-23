@@ -5,6 +5,36 @@ This is the official implementation of our paper L4D-Track: Language-to-4D Model
 > 3D visual language multi-modal modeling plays an important role in actual human-computer interaction. However, the inaccessibility of large-scale 3D-language pairs restricts their applicability in real-world scenarios. 
 In this paper, we aim to handle a real-time multi-task for 6-DoF pose tracking of unknown objects, leveraging 3D-language pre-training scheme from a series of 3D point cloud video streams, while simultaneously performing 3D shape reconstruction in current observation. To this end, we present a generic Language-to-4D modeling paradigm termed L4D-Track, that tackles zero-shot 6-DoF Tracking and shape reconstruction by learning pairwise implicit 3D representation and multi-level multi-modal alignment. Our method constitutes two core parts. 1) Pairwise Implicit 3D Space Representation, that establishes spatial-temporal to language coherence descriptions across continuous 3D point cloud video. 2) Language-to-4D Association and Contrastive Alignment, enables multi-modality semantic connections between 3D point cloud video and language. Our method trained exclusively on public NOCS-REAL275 dataset, achieves promising results on both two publicly benchmarks. This not only shows powerful generalization performance, but also proves its remarkable capability in zero-shot inference.
 
+<p align="center">
+<img src="docs/overview.png" alt="intro" width="100%"/>
+</p>
+<p align="center">
+    The overall framework.
+</p>
+
+# Visualization Results
+<p align="center">
+<img src="docs/show-a.png" alt="intro" width="100%"/>
+</p>
+<p align="center">
+    The results of Unseen objects with known categories.
+</p>
+
+<p align="center">
+<img src="docs/show-b.png" alt="intro" width="100%"/>
+</p>
+<p align="center">
+    The results of Unseen objects with unknown categories.
+</p>
+
+## Other Results
+<p align="center">
+<img src="docs/Visualization.png" alt="intro" width="100%"/>
+</p>
+<p align="center">
+<img src="docs/extra-show-real.png" alt="intro" width="100%"/>
+</p>
+
 # Requirements
 - Linux (tested on Ubuntu 20.04)
 - Python 3.6.13
