@@ -29,7 +29,7 @@ In this paper, we aim to handle a real-time multi-task for 6-DoF pose tracking o
 
 ## Other Results
 <p align="center">
-<img src="docs/Visualization.png" alt="intro" width="100%"/>
+<img src="docs/visualization.png" alt="intro" width="100%"/>
 </p>
 <p align="center">
 <img src="docs/extra-show-real.png" alt="intro" width="100%"/>
