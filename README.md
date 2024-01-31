@@ -123,4 +123,4 @@ You can modity the training config in the demo.
 
 (2) Our code is developed based on [Pointnet2.PyTorch](https://github.com/sshaoshuai/Pointnet2.PyTorch), [SPD](https://github.com/mentian/object-deformnet)， [CLIP](https://github.com/openai/CLIP) and [SGPA](https://github.com/ck-kai/SGPA).
 
-(3) The completed code will be updated when the paper is accepted.
+(3) The completed code is being rebuilt and will be updated when the paper is accepted.
