@@ -49,6 +49,8 @@ conda activate l4dtrack
 
 conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=11.0 -c pytorch
 
+cd l4dtrack 
+
 pip install -r requirements.txt
 ~~~
 
@@ -90,6 +92,10 @@ Training and Testing sets follow [PoseCNN](https://github.com/yuxng/PoseCNN). Th
 We need to execute the following script to generate the train and test data list and their label.pkl.
 ~~~
 python dataset/real275_data_preprocess.py
+~~~
+We also need to execute the following script to generate the corresponding caption embeedings as JSON format.
+~~~
+python models\video_language_model\save_capthon_embeddings.py
 ~~~
 
 # Evaluation
