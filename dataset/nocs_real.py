@@ -45,7 +45,7 @@ class PoseDataset(data.Dataset):
         self.test_caption_list = ["scene_1_caption.pt", "scene_2_caption.pt", "scene_3_caption.pt",
                                   "scene_4_caption.pt", "scene_5_caption.pt", "scene_6_caption.pt"]
 
-        self.caption_save_path = "/home/sjt/LV-Track/models/video_language_model/"
+        self.caption_save_path = "/home/sjt/L4D-Track/models/video_language_model/"
 
         if mode == 'train':
             del img_list_path[2:]
