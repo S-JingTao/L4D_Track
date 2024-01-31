@@ -18,7 +18,7 @@ from utils.align import estimateSimilarityTransform
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--dataset', type=str, default='Real', help='CAMERA or CAMERA+Real')
-parser.add_argument('--data_dir', type=str, default='/home/amax/document/sjt_project/datasets/MY_NOCS/',
+parser.add_argument('--data_dir', type=str, default='/home/amax/document/datasets/MY_NOCS/',
                     help='data directory')
 parser.add_argument('--n_pts', type=int, default=2048, help='number of targeted instance points')
 parser.add_argument('--n_cat', type=int, default=6, help='number of object categories')
@@ -33,7 +33,7 @@ parser.add_argument('--gpu', type=str, default='1,2,3,0', help='GPU to use')
 parser.add_argument('--lr', type=float, default=0.001, help='initial learning rate')
 parser.add_argument('--start_epoch', type=int, default=2, help='which epoch to start')
 parser.add_argument('--max_epoch', type=int, default=30, help='max number of epochs to train')
-parser.add_argument('--resume_model', type=str, default='/home/sjt/LV-Track/results/Real/model_02.pth', help='resume from saved model')
+parser.add_argument('--resume_model', type=str, default='/home/sjt/L4D-Track/results/Real/model_02.pth', help='resume from saved model')
 parser.add_argument('--result_dir', type=str, default='results/Real', help='directory to save train results')
 opt = parser.parse_args()
 

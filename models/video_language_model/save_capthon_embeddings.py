@@ -51,7 +51,7 @@ def main():
     pip install git+https://github.com/openai/CLIP.git
     """
 
-    dir_path = "/home/sjt/LV-Track/models/"
+    dir_path = "/home/sjt/L4D-Track/models/"
     file_path = os.path.join(dir_path, "video_language_model")
     caption_file = ["train_data_caption.json", "test_data_caption.json"]
 

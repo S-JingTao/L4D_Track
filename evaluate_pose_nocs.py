@@ -147,7 +147,7 @@ def evaluate(result_dir):
 
 if __name__ == '__main__':
 
-    result_dir = "/home/sjt/SGPA/results/real/ours/"
+    result_dir = ""
 
     if not os.path.exists(result_dir):
         os.makedirs(result_dir)

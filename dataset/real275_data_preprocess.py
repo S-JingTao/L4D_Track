@@ -347,11 +347,11 @@ def annotate_test_data(data_dir):
 
 
 if __name__ == '__main__':
-    data_dir = '/home/amax/document/sjt_project/datasets/MY_NOCS/'
+    data_dir = ''
     # create list for all data
-    # create_img_list(data_dir)
+    create_img_list(data_dir)
     create_img_list_class(data_dir)
 
     # annotate dataset and re-write valid data to list
-    # annotate_real_train(data_dir)
-    # annotate_test_data(data_dir)
+    annotate_real_train(data_dir)
+    annotate_test_data(data_dir)

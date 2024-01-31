@@ -89,23 +89,3 @@ class Depth2PointCloud:
     def show_point_cloud(self):
         pcd = open3d.io.read_point_cloud(self.pc_file)
         open3d.visualization.draw_geometries([pcd])
-
-
-def main():
-    # read_mat()
-    intrinsic_matrix = [
-        [1066.778, 0, 312.9869],
-        [0, 1067.487, 241.3109],
-        [0, 0, 1]
-    ]
-    a = Depth2PointCloud('000001-color.png', '000001-depth.png', 'pc1.ply', intrinsic_matrix, scalingfactor=10000)
-    # depth = Image.open('00001-depth.png').convert('I')
-
-    a.calculate()
-    a.write_ply()
-    a.show_point_cloud()
-    # a.save_npy_file()
-
-
-if __name__ == '__main__':
-    main()

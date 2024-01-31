@@ -395,16 +395,3 @@ class PoseDataset(data.Dataset):
             cur_data = [cur_points, cur_rgb, cur_choose, cur_sRT]
 
             return pre_data, cur_data, caption_embed, model, prior, cat_id
-
-
-def main():
-    a = PoseDataset
-    res = a("Real", "test", "/home/amax/document/sjt_project/datasets/MY_NOCS/", 2048, 240, 6)
-    res_1 = res.__getitem__(602)
-    all_len = res.__len__()
-    for num in range(0, all_len):
-        res_1 = res.__getitem__(num)
-
-
-if __name__ == '__main__':
-    main()
